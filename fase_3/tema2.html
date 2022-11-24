@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 2</title>
+    <link rel="stylesheet" href="/fase_3/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="flex">
+            <div class="logo">Etiquetas semánticas y CSS Grid</div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Topics
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="/fase_3/tema1.html">Topic 1</a></li>
+                        <li><a href="/fase_3/tema2.html">Topic 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Resources
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="/fase_3/recurso_1.html">Resource 1</a></li>
+                        <li><a href="/fase_3/recurso_2.html">Resource 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Learnings
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="/fase_4/aprendizaje_1.html">Learning 1</a></li>
+                        <li><a href="/fase_4/aprendizaje_2.html">Learning 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="/fase_3/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contenedor">
+        <section class="principal-fase3">
+            <article>
+                <h2>CSS Grid Layout</h2>
+                <img class="img-div-span" src="/fase_3/img/cssgrid.png" alt="">
+                <p class="referencias">
+                    Comdori, N. Y. (n.d.). css grid names for line numbers Archives. NY Comdori Computer Science Note.
+                    Retrieved October 23, 2022, from https://nycomdorics.com/tag/css-grid-names-for-line-numbers/
+                </p>
+                <p>
+                    CSS Grid Layout (también conocido como "Grid" o "CSS Grid"), es un sistema de diseño bidimensional
+                    basado en cuadrículas que, en comparación con cualquier sistema de diseño web del pasado, cambia por
+                    completo la forma en que diseñamos las interfaces de usuario. CSS siempre se ha utilizado para
+                    diseñar nuestras páginas web, pero nunca ha hecho un buen trabajo. Primero, usamos tablas, luego
+                    flotadores, posicionamiento y bloques en línea, pero todos estos métodos eran esencialmente trucos y
+                    dejaban fuera muchas funciones importantes (centrado vertical, por ejemplo). Flexbox también es una
+                    excelente herramienta de diseño, pero su flujo unidireccional tiene diferentes casos de uso, ¡y en
+                    realidad funcionan bastante bien juntos! Grid es el primer módulo CSS creado específicamente para
+                    resolver los problemas de diseño que todos hemos estado solucionando desde que creamos sitios web.
+                </p>
+                <h3>Conceptos básicos de CSS Grid</h3>
+                <p>
+                    Para empezar, debe definir un elemento contenedor como una cuadrícula con, establecer los tamaños
+                    de columna y fila con y , y luego colocar sus elementos secundarios en la cuadrícula con y . De
+                    manera similar a flexbox, el orden de origen de los elementos de la cuadrícula no importa. Su CSS
+                    puede colocarlos en cualquier orden, lo que hace que sea muy fácil reorganizar su cuadrícula con
+                    consultas de medios. Imagine definir el diseño de toda su página y luego reorganizarla por completo
+                    para acomodar un ancho de pantalla diferente, todo con solo un par de líneas de CSS. Grid es uno de
+                    los módulos CSS más potentes jamás introducidos. <br>
+                    display, grid, grid-template-columns, grid-template-rows, grid-column, grid-row
+                </p>
+                <img class="img-div-span" src="/fase_3/img/css-grid-module.png" alt="">
+                <p class="referencias">
+                    Sagar, S. (n.d.). What is grid layout in css? Online Tutorial For JavaScript, ReactJS, HTML and CSS
+                    For Beginners. Retrieved October 23, 2022, from
+                    https://www.anythinglearn.com/2020/02/what-is-grid-layout-in-css.html
+                </p>
+                <img class="img-div-span" src="/fase_3/img/LearnPine_Grid_CheatSheet.png" alt="">
+                <p class="referencias">
+                    Simon, M. (2021, July 15). CSS Grid Cheat Sheet 🔥. DEV Community 👩‍💻👨‍💻.
+                    https://dev.to/simonpaix/css-grid-cheat-sheet-2ll8
+                </p>
+                <h3>Arquitectura de cuadrícula CSS</h3>
+                <p>
+                    Hay dos formas de usar diseños de cuadrícula CSS: implícita y explícita. Con una cuadrícula
+                    implícita, simplemente defina el número de columnas que desea y el navegador creará la cuadrícula
+                    automáticamente. Con una cuadrícula explícita, se define tanto el número de columnas como el número
+                    de filas. Esto le da más control sobre el diseño, pero puede ser más complicado de configurar.</p>
+                <p>Es un sistema de diseño bidimensional. Esto significa que puede manejar columnas y filas. Sin
+                    embargo, a diferencia de los diseños CSS tradicionales, que son en su mayoría unidimensionales, CSS
+                    Grid está diseñado para trabajar con ambas dimensiones al mismo tiempo.
+                    Es un sistema de diseño basado en contenedores. Esto significa que se aplica a los elementos que son
+                    hijos de un elemento contenedor. El elemento contenedor define la cuadrícula y los elementos
+                    secundarios se colocan en las celdas de la cuadrícula.</p>
+                <p>Es un sistema de diseño receptivo. Esto significa que puede adaptarse a diferentes tamaños de
+                    pantalla y resoluciones. CSS Grid también es flexible, lo que significa que se puede utilizar para
+                    una amplia variedad de diseños, desde simples hasta complejos.</p>
+                <p>Se construye sobre el modelo de caja CSS existente. Esto implica que se puede utilizar con cualquier
+                    base de código CSS existente. Sin embargo, también tiene algunas características nuevas que lo hacen
+                    único.</p>
+                <h3>Características que hacen que CSS Grid sea único</h3>
+                <p>
+                    Proporciona la capacidad de colocar elementos en la cuadrícula mediante el posicionamiento basado en
+                    líneas. Esto permite crear diseños muy complejos sin tener que utilizar flotadores tradicionales o
+                    posicionamiento absoluto.
+                </p>
+                <p>Proporciona la capacidad de abarcar columnas y filas. En otras palabras, puede tener elementos que
+                    abarquen varias columnas o filas.</p>
+                <p>Proporciona la capacidad de colocar elementos en ubicaciones específicas mediante números de línea y
+                    nombres, o dirigiéndose a un área específica de la cuadrícula. También se incluye un algoritmo para
+                    controlar la colocación de elementos que no se colocan explícitamente en la cuadrícula.</p>
+                <p>Proporciona la capacidad de controlar cómo se alinean los elementos una vez colocados dentro del área
+                    de la cuadrícula y cómo se alinea la cuadrícula en general.</p>
+                <p>Proporciona la capacidad de crear una cuadrícula utilizando tamaños de pista fijos mediante píxeles,
+                    lo que establece la cuadrícula en el píxel especificado que se ajusta al diseño que desea. También
+                    puede especificar tamaños de pista flexibles utilizando términos de porcentaje o la unidad.</p>
+                <img class="img-div-span2" src="/fase_3/img/ssGrid.png" alt="">
+                <p class="referencias">Ghost. (2020, April 25). The Ultimate Guide To CSS Grid. Medium.
+                    https://ghost-together.medium.com/the-ultimate-guide-to-css-grid-2c5ba7b47356
+                </p>
+                <h3>Beneficios de usar CSS Grid</h3>
+                <p>Hay muchos beneficios al usar CSS Grid al crear páginas web. Uno de los principales beneficios es que
+                    hace que sea mucho más fácil crear diseños complejos. Con CSS Grid, puede crear diseños con varias
+                    columnas y filas, y puede controlar fácilmente el tamaño y la posición de cada elemento en la
+                    página.</p>
+                <p>Otro beneficio de CSS Grid es que ayuda a mantener su código limpio y organizado. Con CSS
+                    tradicional, puede ser fácil que su código se vuelva desordenado y difícil de leer. Sin embargo, con
+                    CSS Grid, todos sus estilos se aplican a una cuadrícula, lo que hace que su código sea mucho más
+                    fácil de leer y entender.</p>
+                <p class="referencias">Singh, M. A. (2022, September 30). CSS Grid - complete guide in 10 minutes.
+                    Codedamn News; codedamn. https://codedamn.com/news/frontend/css-grid
+                </p>
+            </article>
+        </section>
+        <aside class="lateral">
+            <a class="twitter-timeline" data-height="3800"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+    </main>
+    <footer class="pie">
+        <p>mail:nflozanom@unadvirtual.edu.co | skype:live:.cid.3e150689c8b60f25
+        </p>
+    </footer>
+</body>
+
+</html>

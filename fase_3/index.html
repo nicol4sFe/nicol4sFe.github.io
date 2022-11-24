@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fase 3</title>
+  <link rel="stylesheet" href="/fase_3/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="flex">
+      <div class="logo">Etiquetas semánticas y CSS Grid</div>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li>
+          <a href="#">Topics
+            <i class="fas fa-caret-down"></i>
+          </a>
+          <ul>
+            <li><a href="/fase_3/tema1.html">Topic 1</a></li>
+            <li><a href="/fase_3/tema2.html">Topic 2</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Resources
+            <i class="fas fa-caret-down"></i>
+          </a>
+          <ul>
+            <li><a href="/fase_3/recurso_1.html">Resource 1</a></li>
+            <li><a href="/fase_3/recurso_2.html">Resource 2</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Learnings
+            <i class="fas fa-caret-down"></i>
+          </a>
+          <ul>
+            <li><a href="/fase_4/aprendizaje_1.html">Learning 1</a></li>
+            <li><a href="/fase_4/aprendizaje_2.html">Learning 2</a></li>
+          </ul>
+        </li>
+        <li><a href="/fase_3/about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="contenedor">
+    <section class="principal-fase3">
+      <article>
+        <h3>Etiquetas Semanticas</h3>
+        <p>
+          Las etiquetas semánticas hacen parte de HTML5 y estas etiquetas son
+          nombres especiales que informan sobre el tipo de contenido que va
+          dentro de las etiquetas. Esto crea una un orden y una compresión en
+          el código, además de instruir al navegador sobre como indexar el
+          contenido del sitio. Dentro del etiquetado semantico, hay diferentes
+          etiquetas, las mas elementales para construir un esquema principal,
+          serian el header, el article y el footer. Estas etiquetas no tienen
+          estilos, ellas solo organizan la estructura del sitio web, mas no
+          posicionan los textos, ni dan color a ellos, ni tamaños, esa parte
+          de estilos se encarga CSS.
+          <br />
+          <br />
+          header: Esta se llama cabecera en español y va en la parte superior
+          de la estructura.
+          <br />
+          nav: Esta etiqueta separa un apartado de enlaces con el fin de
+          organizarlos como un menu y a su vez con submenu.
+          <br />
+          main: Como su nombre indica, esta etiqueta muestra el contenido
+          principal de un documento.
+          <br />
+          section: Esta etiqueta define el contenido como una seccion del
+          documento.
+          <br />
+          article: Esta etiqueta define el contenido en un articulo del
+          documento.
+          <br />
+          aside: Esta etiqueta define el contenido en la parte lateral de la
+          estructura.
+          <br />
+          footer: Esta etiqueta hace referencia al pie de la pagina o seccion.
+          <br />
+        </p>
+        <img class="img3" src="/fase_2/img/html5.png" alt="" />
+        <p class="referencias">Pardo, S. (2020, October 26). Etiquetas semánticas de HTML5. DEV Community 👩‍💻👨‍💻.
+          https://dev.to/sapardo/etiquetas-semanticas-de-html5-3j7m
+        </p>
+      </article>
+      <article>
+        <h3>CSS Grid</h3>
+        <p>
+          Se puede definir como la division de una pagina en regiones
+          principales y la division en relacion con el tamaño, posiciones y
+          capas, y esto se realiza en el documento html como estilos. Grid en
+          español significa cuadricula, entonces por eso el termino division
+          de pagina, porque una cuadricula es un conjunto de lineas
+          horizontales y verticales que se cruzan y forman las columnas y
+          filas, donde los elementos html se colocan dentro de esta cuadricula
+          y luego se le aplican diseños de estilo a la cuadricula.
+          <br />
+          <br />
+          column-gap: Esta propiedad especifica el espacio entre columnas y
+          filas.
+          <br />
+          gap: Una propiedad abreviada para las propiedades de espacio entre
+          filas y columnas.
+          <br />
+          grid: Propiedad abreviada para las propiedades grid-template-rows,
+          grid-template-columns, grid-template-areas, grid-auto-rows,
+          grid-auto-columns, grid-auto-flow.
+          <br />
+          grid-area: Especifica un nombre para el elemento de la cuadricula, o
+          esta propiedad es una propiedad abreviada para las propiedades
+          grid-rows-start, grid-columns-start, grid-rows-end,
+          grid-columns-end.
+          <br />
+          grid-auto-columns: Especifica el tamaño de columnas predeterminado.
+          <br />
+          grid-auto-flow: Especifica como se insertan los elementos colocados
+          automaticamente en la cuadricula.
+          <br />
+        </p>
+        <img class="img3" src="/fase_2/img/css_grid.png" alt="" />
+        <p class="referencias">Hampton-Smith, S. (2016). CSS Grid Layout. In Pro CSS3 Layout Techniques (pp. 103–128).
+          Apress.
+        </p>
+      </article>
+    </section>
+    <aside class="lateral">
+      <a class="twitter-timeline" data-height="900"
+        href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </aside>
+  </main>
+  <footer class="pie">
+    <p>
+      mail:nflozanom@unadvirtual.edu.co | skype:live:.cid.3e150689c8b60f25
+    </p>
+  </footer>
+</body>
+
+</html>

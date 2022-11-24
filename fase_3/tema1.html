@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema 1</title>
+    <link rel="stylesheet" href="/fase_3/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="flex">
+            <div class="logo">Etiquetas semánticas y CSS Grid</div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li>
+                    <a href="#">Topics
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="/fase_3/tema1.html">Topic 1</a></li>
+                        <li><a href="/fase_3/tema2.html">Topic 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Resources
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="/fase_3/recurso_1.html">Resource 1</a></li>
+                        <li><a href="/fase_3/recurso_2.html">Resource 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Learnings
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="/fase_4/aprendizaje_1.html">Learning 1</a></li>
+                        <li><a href="/fase_4/aprendizaje_2.html">Learning 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="/fase_3/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contenedor">
+        <section class="principal-fase3">
+            <article>
+                <h2>Etiquetas Semanticas</h2>
+                <img class="img-div-span" src="/fase_3/img/semanticsTags.jpg" alt="" />
+                <p class="referencias">
+                    TIL.1 semantic web, semantic tags. (n.d.). Velog.Io. Retrieved
+                    October 23, 2022, from
+                    https://velog.io/@kim-hoontae/TIL.1-Semantic-Web-Semantic-Tags
+                </p>
+                <h3>¿Qué es HTML5 semántico?</h3>
+                <p>
+                    Si sabe un poco sobre HTML, sabrá que las etiquetas HTML se utilizan
+                    (principalmente) para formatear el contenido: estas etiquetas le
+                    dicen al navegador cómo mostrar el contenido en la página. No dan
+                    ninguna indicación sobre qué tipo de contenido contienen o qué papel
+                    juega ese contenido en la página.
+                </p>
+                <p>
+                    HTML5 semántico aborda esta deficiencia definiendo etiquetas
+                    específicas para indicar claramente qué papel desempeña el contenido
+                    que contienen esas etiquetas. Esa información explícita ayuda a los
+                    robots / rastreadores como Google y Bing a comprender mejor qué
+                    contenido es importante, cuál es una subsidiaria, cuál es para la
+                    navegación, etc.
+                </p>
+                <p>
+                    Al agregar etiquetas HTML semánticas a sus páginas, proporciona
+                    información adicional que ayuda a Google y Bing a comprender los
+                    roles y la importancia relativa de las diferentes partes de su
+                    página.
+                </p>
+                <h3>Ejemplos</h3>
+                <img class="img-div-span" src="/fase_3/img/div-span.jpg" alt="" />
+                <p class="referencias">
+                    (N.d.-c). Semrush.com. Retrieved October 23, 2022, from
+                    https://static.semrush.com/blog/uploads/media/f3/8a/f38aa034ef62d1d9c2f43ed6c9ff54ef/div-span.webp
+                </p>
+                <p>
+                    Estos son ejemplos de elementos HTML no semánticos. Sirven solo como
+                    titulares para transmitir al navegador cómo se debe mostrar el
+                    contenido. No dan información sobre el papel que desempeña el
+                    contenido que contienen en la página.
+                </p>
+                <img class="img-div-span" src="/fase_3/img/semantic-html5-tags.jpg" alt="" />
+                <p class="referencias">
+                    (N.d.-d). Semrush.com. Retrieved October 23, 2022, from
+                    https://static.semrush.com/blog/uploads/media/0c/13/0c13b1127055b093f26146e0481e6a8d/semantic-html5-tags.webp
+                </p>
+                <p>
+                    Estos son elementos semánticos. Para los lectores de pantalla y los
+                    robots de los motores de búsqueda, cada elemento define el papel del
+                    contenido contenido dentro de sus etiquetas.
+                </p>
+                <h3>¿Por qué necesito usar etiquetas semánticas HTML5?</h3>
+                <p>
+                    Para los usuarios videntes, cuando una página está bien diseñada
+                    visualmente, es fácil identificar las diversas partes de una página
+                    web de un vistazo. Los encabezados, los menús y (con suerte) el
+                    contenido principal son inmediatamente evidentes visualmente. Ahora
+                    imagina que eres ciego.
+                </p>
+                <p>
+                    Los bots (arañas) de Google y Bing son, si no ciegos, con graves
+                    problemas de visión. Para ellos, las pistas visuales son
+                    fenomenalmente difíciles de ver y entender, necesitan tu ayuda.
+                </p>
+                <p>
+                    Si puede comunicar con éxito a Google y Bing qué parte de la página
+                    es el encabezado, cuál es el pie de página y cuál es para la
+                    navegación, se lo agradecerán. Lo más importante es que al decirles
+                    cuál es el contenido más importante, les das una instrucción
+                    explícita para priorizar ese contenido.
+                </p>
+                <p>
+                    Para los usuarios ciegos o con discapacidad visual y dependen de
+                    lectores de pantalla para describir verbalmente lo que hay en una
+                    página, el uso adecuado de los elementos semánticos HTML5 permitirá
+                    a los lectores de pantalla comunicar con mayor precisión su
+                    contenido al hacer que el visual sea audible. Es vital adoptar esta
+                    nueva versión de HTML para que pueda hacer que su contenido sea
+                    accesible para todos los posibles visitantes del sitio.
+                </p>
+                <div>
+                    <img class="img-div-semantics-left" src="/fase_3/img/semantics.png" alt="" />
+
+                    <img class="img-div-semantics-right" src="/fase_3/img/semantics2.png" alt="" />
+                    <p class="referencias">
+                        Imagen Izquierda: Lee, Y. (20201024:00). Semantic Web과 Semantic
+                        Tag. Yongmin. https://yongminlee26.tistory.com/78 <br>
+                        Imagen Derecha: No title. (n.d.). Jianshu.com. Retrieved October
+                        23, 2022, from https://www.jianshu.com/p/704c15206aa7
+                    </p>
+                </div>
+                <h3>Estructura de etiquetas semánticas HTML5</h3>
+                <p>
+                    Ejemplos de etiquetas HTML semánticas incluyen "nav, footer y
+                    section. Hay muchas más etiquetas semánticas HTML5 que se pueden
+                    usar (por ejemplo, blockquote y em), pero en este artículo solo
+                    estoy viendo aquellas etiquetas HTML semánticas que necesitará para
+                    dividir el contenido de la página en sus partes básicas. Las
+                    siguientes etiquetas HTML5 se pueden usar en lugar de las etiquetas
+                    div para dividir el contenido de la página en partes identificadas,
+                    cada una de las cuales cumple una función específica. Como puedes
+                    imaginar, máquinas como Googlebot y Bingbot AMAN esto.
+                </p>
+                <img class="img-div-span" src="/fase_3/img/7-semantic-html5-tags.png" alt="">
+                <p class="referencias">
+                    Barnard, J. (2017, September 25). HTML5 semantic tags: What they are and how to use them! Semrush
+                    Blog; Semrush. https://www.semrush.com/blog/semantic-html5-guide/
+                </p>
+                <p>
+                    - Elemento de encabezado: el elemento encabezado define el contenido que debe considerarse la
+                    información introductoria de una página o sección. <br>
+
+                    - Elemento Nav: los enlaces del menú de navegación principal se colocarían en una etiqueta nav.
+                    Pero los menús de navegación secundaria en otras partes de la página también podrían obtener
+                    uno. <br>
+
+                    - Etiqueta principal: el cuerpo de una página debe ir en la etiqueta principal, no en las
+                    barras laterales y la navegación principal. Solo debe haber uno por página. <br>
+
+                    - Elemento de artículo: el elemento artículo define el contenido autónomo que podría ser
+                    independiente de la página o el sitio en el que se encuentre. Por ejemplo, una
+                    entrada de blog. <br>
+
+                    - Elemento de sección: el uso de sección es una forma de agrupar contenido cercano
+                    de un tema similar. Una etiqueta de sección difiere de una etiqueta de artículo
+                    porque no es necesariamente autónoma. <br>
+
+                    - Elemento aparte: un elemento aparte define el contenido que es menos
+                    importante. A menudo se usa para barras laterales, áreas que agregan
+                    información complementaria pero no vital. <br>
+
+                    - Elemento de pie de página: usaría pie de página en la base de una página o
+                    sección. Puede incluir información de contacto y algo de navegación del
+                    sitio. <br>
+                </p>
+                <p>
+                    Esta clara delimitación y atribución explícita de roles a cada parte del
+                    contenido hace que la página sea mucho más clara y fácil de indexar
+                    correctamente para Google y Bing.
+                </p>
+                <p>
+                    Dado que todas estas etiquetas se comportan exactamente igual que las
+                    etiquetas div; Simplemente pueden reemplazar divs existentes en la
+                    página sin afectar el diseño. En muchos casos, implementar HTML5
+                    semántico puede ser tan fácil como encontrar el par correcto de
+                    div y /div y reemplazarlos.
+                </p>
+                <p class="referencias">Barnard, J. (2017, September 25). HTML5 semantic tags: What they are and how to
+                    use them! Semrush Blog; Semrush. https://www.semrush.com/blog/semantic-html5-guide
+                </p>
+            </article>
+        </section>
+        <aside class="lateral">
+            <a class="twitter-timeline" data-height="3500"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+    </main>
+    <footer class="pie">
+        <p>
+            mail:nflozanom@unadvirtual.edu.co | skype:live:.cid.3e150689c8b60f25
+        </p>
+    </footer>
+</body>
+
+</html>
